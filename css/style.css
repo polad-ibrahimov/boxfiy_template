@@ -1,0 +1,465 @@
+.wrap {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.headBottom {
+    padding: 60px 0;
+}
+
+header {
+    background: url('../img/hero.jpg') center/cover no-repeat;
+}
+
+.top-menu {
+    padding: 50px 0;
+}
+
+.top-menu .logo-img {
+    float: left;
+}
+
+.top-menu .menu {
+    float: right;
+}
+
+.top-menu .menu p {
+    font-size: 20px;
+    padding: 7px;
+    display: block;
+    float: left;
+}
+
+.top-menu .menu p, a{
+     color: white;
+}
+
+.top-menu .menu a {
+    padding: 0 10px;
+}
+
+.top-menu .menu a i {
+    font-size: 35px;
+}
+
+.head-h1 {
+    padding: 100px 0;
+}
+
+.head-h1 h1 {
+    font-size: 45px;
+    color: white;
+    padding: 50px 0 30px 0;
+    margin: 0px;
+}
+
+.btn-head {
+    padding: 50px 0;
+}
+
+.btn-head a {
+    text-decoration: none;
+    padding: 20px 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn-head .btn-header {
+    background: white;
+    color: #6eb6f3;
+    display: inline-block;
+}
+
+.btn-head .btn-header:hover {
+    background: #6eb6f3;
+    color: white;
+    border: 1px solid #6eb6f3;
+}
+
+.btn-head .btn-header2 {
+    color: white;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.btn-head .btn-header2:hover {
+    border: 1px solid #6eb6f3;
+    color: #6eb6f3;
+}
+
+
+/*section video*/
+
+.video {
+    padding: 60px 0;
+    background-color: #f6f7f9;
+}
+
+.watchVideo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.watchVideo a {
+    text-decoration: none;
+    color: #323a45;
+    text-align: center;
+    font-size: 30px;
+}
+
+.watchVideo a:hover {
+    color: #6eb6f3;
+}
+
+.watchVideo a i {
+    margin-right: 5px;
+    font-size: 40px;
+}
+
+
+/*section about start*/
+
+.ab-fon {
+    background-color: #3F6184;
+}
+
+.about {
+    background: url('../img/features-intro.jpg') no-repeat;
+    width: 50%;
+    float: left;
+}
+
+.about-img {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about-img img {
+    padding: 50px 0;
+}
+
+.abText {
+    padding-left: 50%;
+}
+
+.abText h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 60px 0 30px 60px;
+}
+
+.abText p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 30px 0 30px 60px;
+}
+
+.abText a {
+    text-decoration: none;
+    color: #73d0da;
+    padding: 0 0 0px 60px;
+}
+
+.ab-li {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.ab-li ul li {
+    width: 13px;
+    height: 13px;
+    border: 2px solid white;
+    list-style: none;
+    display: inline-block;
+    border-radius: 90px;
+    margin-right: 5px;
+}
+
+.ab-li ul li.active {
+    border: 2px solid white;
+    background: white;
+}
+
+
+/*section features start*/
+
+.features {
+    background-color: #f6f7f9;
+}
+
+.col-1 {
+    width: 33.33%;
+    float: left;
+    padding: 100px 0;
+}
+
+.col-1 .features-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    border: 2px solid #4e9ba3;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+}
+
+.col-1 .features-icon i {
+    font-size: 25px;
+    color: #4e9ba3;
+    padding-top: 35px;
+}
+
+.col-1 .features-content {
+    width: 70%;
+    float: right;
+}
+
+.col-1 .features-content h3 {
+    margin-bottom: 10px;
+    padding: 0;
+    color: #24374b;
+    font-size: 20px;
+}
+
+.col-1 .features-content p {
+    font-size: 14px;
+    line-height: 25px;
+    margin: 20px 0;
+    color: #778899;
+}
+
+.feature-icon1 {
+    text-decoration: none;
+    color: #73d0da;
+}
+
+.read_btn {
+    text-decoration: none;
+    color: #323a45;
+    font-weight: 400;
+}
+
+.read_btn:hover {
+    color: #73d0da;
+}
+
+/*section showcase start*/
+
+.showcase {
+    background: url('../img/showcase-bg-fixed-01.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.show-wrap {
+    position: relative;
+    padding: 100px 0;
+    min-height:429px;
+}
+
+.show-wrap .showcase-col2{
+    width: 50%;
+    float: left;
+}
+
+.show-wrap .right-col2 {
+    float: right;
+}
+
+.showcase-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/grid.png);
+}
+
+.showcase-col2 .iphone{
+    padding-left: 50px;
+    margin-left: 60px;
+}
+
+.row{
+    position: relative;
+}
+
+.row .showcase-col3{
+    position: absolute;
+    right: 0px;
+}
+
+.showcase-col3 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.showcase-col3 p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.showcase-col3 .showcase-info {
+    margin-top: 30px;
+}
+
+.showcase-info .avatar img {
+    float: left;
+    margin-right: 20px;
+}
+
+.showcase-info .codrops-logo {
+     margin-top: 30px;
+}
+
+.showcase-info .codrops-logo img{
+    margin-left: 80px; 
+}
+
+.btn-showcase {
+    padding-top: 50px;
+}
+
+.btn-showcase a {
+    text-decoration: none;
+    padding: 20px 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-showcase a:hover {
+    border: 1px solid #6eb6f3;
+    color: #6eb6f3;
+}
+
+
+/*section screenshot-intro start*/
+
+.screenshot-intro {
+    padding: 100px 0;
+    background-color: #f6f7f9;
+}
+.screen-row{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.screenshot-intro h1 {
+    margin-bottom: 20px;
+    color: #24374b;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.screenshot-intro p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    color: #778899;
+} 
+
+.screenshot-intro a{
+    text-decoration: none;
+    color: #73d0da;
+}
+
+/*section screenshot start*/
+.screenshot .col-screen{
+    float: left;
+    width: 25%;
+    height: 40%;
+}
+
+.screenshot .col-screen img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*section download start*/
+
+.download {
+    padding: 70px 0;
+    background-color: #3f6184;
+}
+.download h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-download {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.btn-download a {
+    text-decoration: none;
+    padding: 18px 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-download a:hover{
+     border: 2px solid #73d0da;
+     color: #73d0da;
+}
+
+
+/*footer start*/
+
+footer{
+    padding: 100px 0;
+}
+
+.foot-lg {
+    float: left;
+}
+.foot-menu{
+    float: right;
+    margin-top: 10px;
+}
+.foot-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+    font-weight: 400;
+}
+.foot-menu ul li:last-child{
+    margin-right: 0;
+}
+
+.foot-menu ul li a{
+    text-decoration: none;
+    color: #3f6184;
+}
+
+.foot-menu ul li a:hover{
+    color: #73d0da;
+}
+
+.foot-text{
+    padding-top:20px;
+}
+
+.foot-text p{
+    color: #c7cacc;
+    font-size: 12px;
+}
+
+.foot-text a{
+   text-decoration: none;
+   color: #73d0da;
+}
